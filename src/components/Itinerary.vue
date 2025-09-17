@@ -36,17 +36,12 @@ const itinerary = ref([
     location: 'Templo de Nuestra Señora de Guadalupe',
   },
   {
-    time: '4:00 pm',
+    time: 'Por confirmar',
     description: 'Cóctel',
     location: 'Hotel Sunscape',
   },
   {
-    time: '5:00 pm',
-    description: 'Recepción',
-    location: 'Hotel Sunscape',
-  },
-  {
-    time: '6:00 pm',
+    time: 'Por confirmar',
     description: 'Fiesta',
     location: 'Hotel Sunscape',
   },
