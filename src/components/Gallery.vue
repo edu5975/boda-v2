@@ -1,6 +1,6 @@
 <template>
-  <div class="my-4">
-    <h3 class="mb-3 text-center">Galería</h3>
+  <div class="my-5 rounded-3 text-center">
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Galería</h3>
     <div class="container">
 
       <!-- Imagen principal -->

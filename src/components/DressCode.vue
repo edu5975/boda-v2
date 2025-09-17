@@ -1,5 +1,5 @@
 <template>
-  <div class="my-5 p-4 rounded-3 text-center">
+  <div class="my-5 rounded-3 text-center">
     <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">
       Código de Vestimenta
     </h3>

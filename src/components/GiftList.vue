@@ -1,6 +1,6 @@
 <template>
-  <div class="my-5 text-center">
-    <h3>Lista de regalos</h3>
+  <div class="my-5 rounded-3 text-center">
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Lista de regalos</h3>
 
     <!-- Texto alusivo a aportes monetarios -->
     <p class="fs-6" style="line-height: 1.6; max-width: 650px; margin: 0 auto;">

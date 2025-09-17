@@ -1,6 +1,6 @@
 <template>
-  <div class="my-5">
-    <h3 class="text-center mb-4">Ubicación</h3>
+  <div class="my-5 rounded-3 text-center">
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Ubicación</h3>
 
     <div class="row g-4 justify-content-center">
       <!-- Mapa del Templo -->

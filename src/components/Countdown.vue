@@ -1,6 +1,6 @@
 <template>
-  <div class="my-5">
-    <h3 class="mb-4 text-center">Faltan para el gran día:</h3>
+  <div class="my-5 rounded-3 text-center">
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Cuenta regresiva</h3>
     <div class="row justify-content-center g-3">
       <div
         class="col-6 col-md-auto d-flex justify-content-center"

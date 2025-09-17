@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-3">
-    <label class="lead form-label fw-bold">Nuestra canción</label>
+<div class="my-5 rounded-3 text-center">
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Nuestra canción</h3>
     <br>
     <audio
       controls

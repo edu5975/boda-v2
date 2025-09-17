@@ -1,6 +1,6 @@
 <template>
-  <div class="my-5">
-    <h3 class="mb-4 text-center">Itinerario del Evento</h3>
+  <div class="my-5 rounded-3 text-center">
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Itinerario del Evento</h3>
     <div class="d-flex flex-column gap-3 mx-auto" style="max-width: 400px;">
       <div
         v-for="(item, index) in itinerary"
