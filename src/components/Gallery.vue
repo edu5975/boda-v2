@@ -97,7 +97,7 @@ function nextImage() {
 
 // Cargar imágenes con import.meta.glob
 onMounted(() => {
-  const images = import.meta.glob('../assets/images/*.{jpg,jpeg,png,gif}', { eager: true })
+  const images = import.meta.glob('../assets/images/*.{jpg,jpeg,png,gif,webp}', { eager: true })
   imageUrls.value = Object.values(images)
     .map(mod => mod.default || mod)
     .sort()

@@ -1,19 +1,14 @@
 <template>
-  <div class="my-5">
+  <div class="my-5 text-center">
     <h3>Lista de regalos</h3>
-    <ul class="list-unstyled">
-      <li v-for="(list, index) in giftLists" :key="index">
-        <a :href="list.url" target="_blank" rel="noopener" class="btn btn-outline-success m-2">
-          {{ list.name }}
-        </a>
-      </li>
-    </ul>
+
+    <!-- Texto alusivo a aportes monetarios -->
+    <p class="fs-6" style="line-height: 1.6; max-width: 650px; margin: 0 auto;">
+      Su presencia en este día tan especial es el mejor regalo que podemos recibir 💕.  
+      Si desean tener un detalle con nosotros, agradeceremos cualquier aportación monetaria.  
+      El día del evento tendremos sobres disponibles para quienes prefieran entregarlo de esa manera.  
+      Esto es completamente opcional, lo más importante es compartir juntos este momento ✨.
+    </p>
   </div>
 </template>
 
-<script setup>
-const giftLists = [
-  { name: 'Amazon', url: 'https://www.amazon.com.mx/hz/wishlist/ls/EXAMPLE' },
-  { name: 'Liverpool', url: 'https://www.liverpool.com.mx/tienda/registro-de-deseos?example' },
-]
-</script>

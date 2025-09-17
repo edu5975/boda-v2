@@ -1,6 +1,6 @@
 <template>
   <div class="mt-3">
-    <label class="form-label fw-bold">Nuestra canción</label>
+    <label class="lead form-label fw-bold">Nuestra canción</label>
     <br>
     <audio
       controls
@@ -16,5 +16,5 @@ import { ref } from 'vue'
 import song from '../assets/song.mp3'
 
 // Puedes controlar esta variable desde el script o el padre del componente
-const autoplayEnabled = ref(false)
+const autoplayEnabled = ref(true)
 </script>

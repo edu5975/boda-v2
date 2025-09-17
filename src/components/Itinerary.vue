@@ -31,7 +31,7 @@ import { ref } from 'vue'
 
 const itinerary = ref([
   {
-    time: '1:30 pm',
+    time: '1:15 pm',
     description: 'Misa',
     location: 'Templo de Nuestra Señora de Guadalupe',
   },
