@@ -1,6 +1,6 @@
 <template>
   <div class="my-5 text-center p-4 rounded-3">
-    <h3 class="fw-bold mb-3">📸 Comparte tus fotos</h3>
+    <h3 class="fw-bold mb-3">Comparte tus fotos</h3>
 
     <p class="fs-6 mb-3" style="line-height: 1.6; max-width: 650px; margin: 0 auto;">
       Queremos guardar no solo los recuerdos de la boda, sino <strong>toda la experiencia de su estadía</strong>:  
