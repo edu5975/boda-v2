@@ -31,19 +31,24 @@ import { ref } from 'vue'
 
 const itinerary = ref([
   {
-    time: '1:15 pm',
+    time: '12:15 PM',
+    description: 'Salida de Autobus',
+    location: 'Recepción',
+  },
+  {
+    time: '1:15 PM',
     description: 'Misa',
     location: 'Templo de Nuestra Señora de Guadalupe',
   },
   {
-    time: 'Por confirmar',
+    time: '6:00 PM',
     description: 'Cóctel',
-    location: 'Hotel Sunscape',
+    location: 'Hotel Sunscape (Solarium)',
   },
   {
-    time: 'Por confirmar',
-    description: 'Fiesta',
-    location: 'Hotel Sunscape',
+    time: '7:15 PM',
+    description: 'Banquete',
+    location: 'Hotel Sunscape (Solarium)',
   },
 ])
 </script>

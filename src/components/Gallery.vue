@@ -1,6 +1,6 @@
 <template>
   <div class="my-5 rounded-3 text-center">
-    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Galería</h3>
+    <h3 class="fw-bold mb-2" style="letter-spacing: 1px;">Nuestra historia</h3>
     <div class="container">
 
       <!-- Imagen principal -->
@@ -97,7 +97,7 @@ function nextImage() {
 
 // Cargar imágenes con import.meta.glob
 onMounted(() => {
-  const images = import.meta.glob('../assets/images/*.{jpg,jpeg,png,gif,webp}', { eager: true })
+  const images = import.meta.glob('../assets/galleryImages/*.{jpg,jpeg,png,gif,webp}', { eager: true })
   imageUrls.value = Object.values(images)
     .map(mod => mod.default || mod)
     .sort()
