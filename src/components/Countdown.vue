@@ -28,7 +28,7 @@ const countdown = ref({
   Seg: '0'
 })
 
-const eventDate = new Date('2025-10-24T13:30:00')
+const eventDate = new Date('2025-10-24T13:15:00')
 
 function updateCountdown() {
   const now = new Date()
